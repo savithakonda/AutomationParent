@@ -1,7 +1,10 @@
+import functions.SecondFunctionsExample;
+
 public class FunctionsExample {
 
-    static int c=30;
-    int b=20;
+    static int c = 30;
+    int b = 20;
+
     public static void main(String[] args) {
 
         // invoking/calling a function with out input params and without return value
@@ -19,13 +22,24 @@ public class FunctionsExample {
         // We are calling the function getname() and assigning the output from that function to a variable extractedName
         String extractedName = getname();
         System.out.println(extractedName);
+
+        // Do all math is a function which invokes addition function internally
+        doAllMath();
+
+        // invoking a function from different class -
+        // to call a function from different classs, we have to use the ClassName.functionName()
+        Welcome.parameter(1, 2, 3);
+        Welcome.input();
+
+        // invoking a function from a differnet package
+        SecondFunctionsExample.washHands();
     }
 
     public static void sayHi() {
         System.out.println("Hello Savitha");
     }
 
-    public static void addition(int num1, int num2){
+    public static void addition(int num1, int num2) {
         int num3 = num1 + num2;
         System.out.println("The value after addition is : " + num3);
     }
@@ -37,13 +51,17 @@ public class FunctionsExample {
     }
 
     // with return value - without input parameters
-    public static String getname(){
+    public static String getname() {
         // this function will return a String to the calling function
         String someAnotherName = "Savitha";
         return someAnotherName;
     }
 
-
+    public static void doAllMath() {
+        // function calling other (one or more) user defined functions
+        System.out.println("Here we can call another function from inside of a function");
+        addition(15, 15);
+    }
 
     /*
 
@@ -86,7 +104,6 @@ public class FunctionsExample {
 
 
      */
-
 
 
 }
