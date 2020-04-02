@@ -25,6 +25,16 @@ public class NonStaticFuncExample {
     }
 
     // function without input params and without return type
+    public void noreturn(){
+        System.out.println("universal");
+    }
+    //function without input parameter and with return value
+    public int main (){
+         int num1 = 555;
+         return num1;
+
+        //
+    }
 
 
 

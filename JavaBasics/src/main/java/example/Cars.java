@@ -9,7 +9,6 @@ public class Cars {
     public void myOwnMethod() {
         color = "blue";
     }
-
     public static void main(String[] args) {
         // creating an object of Cars
         Cars pCar = new Cars();

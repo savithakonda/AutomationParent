@@ -37,7 +37,7 @@ public class SavithaStaticFunctions {
         System.out.println("addition" + num4);
         System.out.println("multiply"+num5);
     }
-//    3- no Input parameter - with return value (got error when tried void as return type)
+//    3- no Input parameter - with return value
     public static int noinputwithreturnv() {
         int num1 = 1000;
         return num1;
