@@ -33,6 +33,7 @@ public class FunctionsExample {
 
         // invoking a function from a differnet package
         SecondFunctionsExample.washHands();
+
     }
 
     public static void sayHi() {
