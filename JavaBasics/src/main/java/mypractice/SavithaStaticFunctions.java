@@ -1,6 +1,5 @@
 package mypractice;
 
-
 import example.Cars;
 import functions.SecondFunctionsExample;
 
@@ -17,15 +16,18 @@ public class SavithaStaticFunctions {
         System.out.println(num1);
         String placetovisit1 = returnvalue();
         System.out.println(placetovisit1);
-        int num5 = paraandvrvalue(25,25);
+        int num5 = paraandrvalue(25,25);
         System.out.println("xyz: " + num5);
-        System.out.println("score: " + paraandvrvalue(8, 5));
+        System.out.println("score: " + paraandrvalue(8, 5));
 
         SecondFunctionsExample.washHands();
-        //HelloWorld.main(); (got error when invoking function from different class)
+
+
+        doAllMath();
 
 
     }
+
 //    1- No Input parameter - no return value
     public static void noinputnoreturn(){
         System.out.println("Los Angeles");
@@ -47,13 +49,18 @@ public class SavithaStaticFunctions {
         return placetovisit1;
     }
 //   4-  with input parameter  - with return value
-    public static int paraandvrvalue(int num1, int num2){
+    public static int paraandrvalue(int num1, int num2){
         int num5 = num1 * num2;
         return num5;
     }
     // function calling other (one or more) user defined functions-doAllMath please explain
+       public static void doAllMath(){
+           System.out.println("Welcome to todays class");
+           System.out.println(paraandrvalue(8,8));
+           inputPnoreturn(12,12,1);
+       }
 
-    }
+}
 
 /*
         No Input parameter - no return value

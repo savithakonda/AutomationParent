@@ -1,3 +1,4 @@
+import example.NonStaticFuncExample;
 import functions.SecondFunctionsExample;
 
 public class FunctionsExample {
@@ -34,6 +35,9 @@ public class FunctionsExample {
         // invoking a function from a differnet package
         SecondFunctionsExample.washHands();
 
+        // invoking a nonstatic function from different package
+        NonStaticFuncExample nsfe = new NonStaticFuncExample();
+        nsfe.noreturn();
     }
 
     public static void sayHi() {

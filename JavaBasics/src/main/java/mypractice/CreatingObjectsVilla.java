@@ -1,6 +1,6 @@
 package mypractice;
 
-public class Villa {
+public class CreatingObjectsVilla {
     String name;
     int rooms;
     int furniture;
@@ -10,8 +10,8 @@ public class Villa {
         name = "welcome home";
      }
      public static void main(String[] args){
-         Villa myhouse1 = new Villa();
-         Villa myhouse2 = new Villa();
+         CreatingObjectsVilla myhouse1 = new CreatingObjectsVilla();
+         CreatingObjectsVilla myhouse2 = new CreatingObjectsVilla();
 
          myhouse1.name ="dream villa";
          myhouse1.furniture = 5;

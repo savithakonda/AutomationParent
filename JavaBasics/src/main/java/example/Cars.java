@@ -1,5 +1,7 @@
 package example;
 
+import mypractice.CreatingObjectsVilla;
+
 public class Cars {
     String color;
     int doors;
@@ -12,6 +14,11 @@ public class Cars {
     public static void main(String[] args) {
         // creating an object of Cars
         Cars pCar = new Cars();
+
+        NonStaticFuncExample nonStaticFuncExample = new NonStaticFuncExample();
+        CreatingObjectsVilla villa = new CreatingObjectsVilla();  // good practice
+        CreatingObjectsVilla cars = new CreatingObjectsVilla(); // bad practice
+
 
         // Any number of objects can be created
         Cars myCar2 = new Cars();
