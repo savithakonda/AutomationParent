@@ -11,7 +11,7 @@ public class NestedConditionExample {
             } else {
                 System.out.println("B is greater than C");
             }
-        } // TODO: Complete the block to compare a, b, c. Take values like 10, 5, 15
+        } //
 
     }
     public static void comparetask(int x, int y, int z) {

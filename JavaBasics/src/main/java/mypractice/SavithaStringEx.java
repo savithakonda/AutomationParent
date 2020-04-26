@@ -33,7 +33,7 @@ public class SavithaStringEx {
         // tocharsequence
         System.out.println(name1.toCharArray().length + " is the legth of the character array");
         System.out.println(name1.matches("S(.*)") );
-
+        System.out.println();
     }
 
 

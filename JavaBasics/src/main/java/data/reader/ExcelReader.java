@@ -17,7 +17,8 @@ public class ExcelReader {
     public static void readData() throws IOException, BiffException {
         System.out.println("now in readData function");
         // 1. find the location of the file
-        File xlsFile = new File("C:\\Users\\skonda23\\IdeaProjects\\AutomationParent\\JavaBasics\\src\\main\\resources\\TestData.xls");
+        // File xlsFile = new File("C:\\Users\\skonda23\\IdeaProjects\\AutomationParent\\JavaBasics\\src\\main\\resources\\TestData.xls");
+        File xlsFile = new File(PropertyReader.getProp("xlsFilePath"));
 
         // 2. Open the file
         Workbook xlsWb = Workbook.getWorkbook(xlsFile);
