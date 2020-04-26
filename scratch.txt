@@ -1,0 +1,236 @@
+What do we do in Automation:
+- We expediate the process
+    - By optimizing the reusable work flows
+    - Creating scripts to reuse
+    Manual Time to execute      Automation: Time to execute
+    - Test Case creation        - Test case optimization
+    - Test Data creation        - Script creation
+    - Test Case validation      - Script execution
+    - Execution                 - Validation
+
+When to automate:
+- Calculate the Return on Investment (ROI)
+    - Amount of test cases
+    - Amount of Regression
+    - Duration of the project
+    - Frequency of changes coming in the application
+    - Complexity in automtating the workflows
+
+How do we automate:
+- We mimic the workflow
+    By using some tool or code based scripts
+
+Actions that are possible:
+- Type the data in text fields
+- Click on buttons, links or checkboxes or radio buttons
+- Select values from drop down fields
+- Validations
+
+Selenium:
+Its a web application automation tool
+- It can operate only on Browsers
+- It has close dependencies on the Browser Versions
+- Selenium controls the instances of every session
+- Session sharing is not possible in Selenium
+- Every session starts with a new Browser
+- It cannot validation/automate any Media stuff like images, videos, flash, silverlight(old)
+- Selenium can be executed in multiple programming languages
+    Java, C#, phyton, ruby....
+
+Java:
+Setup - environmental values
+
+Basics:
+- variables
+- loops, conditional statmemnets
+- functions - 4 varients
+- oops concepts
+- integration with tools like log4j, io - property files, xml files, xls files
+- Introduction to maven and setting up maven projects
+- Detailed understanding of maven conecpts like plugins, dependencies, profiles, modules...
+- integration with TestNg, Junit
+- integration with Cucumber
+- Custom screenshot with java and selenium
+
+- Integration with Selenium
+- Different versions.
+- Chrome browser for examples
+
+Git, Trello
+
+Build a framework - data driven or keyword driven
+--------------------------
+Day 1:
+Github setup:
+1. Installed git.exe on windows
+2. Verifeid that git plugin is enabled on intellij
+3. Created a new project parent
+4. Added module to the parent
+5. Committed the projects
+    - Add to git hub by selecting
+            VCS > Import into github > Share project on github
+    - Connection to github by providing the credentials
+    - Verified that git remote url is available on
+            VCS > Git > Remote option
+6. Push the files to the Remote github
+
+Verification: Open github and we see the project pom files and the new project on remote repository
+
+Created a new Branch on Git and
+    Created a HelloWorld class
+        - Observed the difference between .java and .class files
+        - Target folder
+    Executed the first java class and seen the output
+------------
++ is called as Concatenation operator (ex: "Mr." + "Peter" )
++ is a math operator (5 + 5)
++ is called as Concatenation operator - ("Rs: " + 5) ==> Rs: 5
+/ -> can be used as divide as well as escape charater
+
+Function/method:
+    A set of lines of code which can be referred with a specific name
+    -TIP:  name of the function/method represents the action/logic thats being perofrmed
+    Purpose: to reuse the logic/code
+    We can refer to the function/mehtod any number of times.. This will execute that particular block of lines.
+    This will minimize the duplicate code lines through out the project
+
+    Default Method in java is
+
+    Reason: This defines the start point of the execution
+    - This is predefined in jvm
+
+    <access Specifier> <static/non-static> <returnTye> <nameOfMethod> (<optional - input parameters>) { -- }
+    public static void main
+
+ 1. Access Specifier: public/private/protected
+ 2. static/non-static: static/<null>
+ 3. returnType: void --> no return value
+                any data type like int, String, char, boolean....
+ 4. Name of the method - Should be unique in the scope of a class
+                        Should not be matching with any predefined keywords
+ 5. Input parameter - this is the input we pass to the function/method
+                        can be any data type
+                        Can be empty also -- > no input parameter
+
+    No Input parameter - no return value
+    Input parameter - no return value
+    no Input parameter - with return value
+    with input paramter  - with return value
+
+<<<<<<<<<<<<<<<
+     /*   int a=10;
+        System.out.println(c);
+        System.out.println(a);
+      Variable obj=new Variable();
+        System.out.println(obj.b);
+        // call the function sayHi
+        */
+
+     // calling a method called sayHi
+     /* sayHi();
+        // calling a method called addition - with input parameters
+        addition(5, 7);
+        addition(1, 11);
+        addition(2, 66);
+        addition(6, 88);
+
+        // declare a new variable
+        // and assign the value coming from the function with return type
+   */
+
+>>>>>>>>>>>>>>>>>>>
+- Naming conventions
+    Names cannot start with any numbers or special charactes
+    - always starts with alpha character
+    - no special characters are allowed in the variable names.
+        ex: num1    - valid
+            num%    - invalid
+            1num    - invalid
+            num€vv  - invalid
+            _num1   - invalid
+            n1um    - valid
+
+    1. Project
+        - Name starts with a capital and follow camel casing
+    2. module
+        - Name starts with a capital and follow camel casing
+    3. Packages
+        - Name starts with a small letter and follow camel casing
+    4. Class
+        - Name starts with a capital and follow camel casing
+    7. objects - instance variable
+        - Name starts with a small letter
+        + name is (in most cases) equal to the class name
+    5. methods
+        - Name starts with a small letter and follow camel Casing
+        ex: getProductOfTwoNumbers()
+    6. variables
+        - Name starts with a small letter and follow camel Casing
+        - Constants: they will not change through out. These are always in ALL CAPITALS
+            COUNTRY = "US";
+            ORGANISATION = "DXC";
+            ONE = 1;
+        - thisIsAVariable
+        - thisIsClassObject;
+
+
+
+
+
+
+
+
+Now: Commit the new class file to the remote
+
+
+
+Functions:
+
+                        static                      non-static
+static member             yes                         yes. with the help of an object
+non static member          yes                         yes
+
+Conditional Expressions:
+
+=   assignation operator
+==  comparision operator (equals to)
+>=  comparision operator (Greater than or equal to)
+>   greater than
+<   less than
+<=  less than or equal to
+!=  not equal to
+
+!   ==> negation operator
+&& ==> AND operator
+||  ==> OR Operator
+
+AND Table:          OR Table:
+T AND T == T        T OR T  == T
+T AND F == F        T OR F  == T
+F AND T == F        F OR T  == T
+F AND F == T        F OR F  == F
+
+
+
+Task: comparision between 3 numbers
+1. use nested if conditions
+a < b
+    a < c
+        b < c
+
+Escape Sequence:
+\t  - Tab space
+\n  - New line character
+\\  - To use slash
+\"  - to print/use "
+\'  - to print/use '
+
+
+
+//TODO: Check private access specifier
+//TODO: String functions - Done
+//TODO: Finally keyword
+
+Jar files:
+JAR - Java Archeive
+-

@@ -1,0 +1,48 @@
+Selenium
+--------
+
+
+1. Added Selenium library to the project
+2. Added WebdriverManager lib to the project
+    Understood the conept of adding the exe information to launch any browser
+        - Exe acts as an adaptor between selenium calls and the browser functionality
+    By adding webdrivermanager, we save the effort of extractin and adding the exe information manually
+    Webdrivermanager helps in setup of browser (hidden: by downloading the exe and setting the path for execution)
+
+3. Started a chrome browser
+4. Understood the keywords related to Launch
+    (creating an object of the chromedriver launches the browser session)
+
+5. Keyword related to Navigation:
+    - get(String s)        -- launches the url (where s is the url)
+        Tip: Always use the url including protocol details (in general http/https)
+    - navigate()    -- Returns navigation object
+        .to(Url/String)
+        .back()
+        .forward()
+        .refresh()
+
+6. Extracted browser component details like URL, Title of the launched site
+
+7. Performed a google search by using the findElement()
+    findElement(By by)
+        - needs a By information
+        By can be   name()  -- covered
+                    id()
+                    tagName()
+                    linkText()
+                    partialLinkText()
+                    xpath()
+                    cssSelector()
+                    className()
+
+8. Extracted all Links using findElements()
+        This returns a list of webelements
+        using the list function, we extraced the total links found on the home page
+        Printed the size of the list
+
+        Using for loop --> iterated on each element
+            Printed the Text of each link (getText())
+            Printed the href of each link (getAttribute("href"))
+
+
