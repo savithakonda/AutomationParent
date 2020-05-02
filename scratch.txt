@@ -227,6 +227,30 @@ Escape Sequence:
 
 
 
+------------
+
+Set<DataType>
+    - similar to List<DataType>
+            Where DataType is any of Strin/int/custom defined data type
+    Only difference between List and Set is:
+        List accepts duplicate entries
+        Set doesn't accept any duplicate entry
+
+To iterate on any collection we can use ForEach syntax
+
+
+for(DataType loopVariable: collectionVariable) {
+
+}
+
+Where Data Type is the List/Set collection type
+collectionVariable is a variable storing the list/set (others also: hashset, map, hashmap)
+
+break:
+------
+Break keyword is used to terminate the loop whener a certain condition is met
+
+
 //TODO: Check private access specifier
 //TODO: String functions - Done
 //TODO: Finally keyword

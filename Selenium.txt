@@ -46,3 +46,27 @@ Selenium
             Printed the href of each link (getAttribute("href"))
 
 
+--------
+9. WindowHandles
+        Handle is the unique id assigned to the browser when it is laucnhed
+        getWindowHandle() will return the id of the browser in focus
+            - String is the return type of this function
+        getWindowHandles() will return "ALL" ids of the browsers created in the current session
+            - Set<String> is the return type of this function
+
+
+10. SwitchTo()
+        allows to switch the focus of the control during execution
+                - possible to switch between
+                        - active element
+                        - windows
+                        - alerts
+                        - defaultContent
+                        - frames
+
+11.
+
+General:
+Created a new package for reusability
+- BrowserFactory
+        : Ideally should contail all the reusable browser fucntions which can be used in any project

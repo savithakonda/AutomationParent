@@ -13,6 +13,7 @@ public class GoogleSearch {
 
     public static void main(String[] args) throws MalformedURLException {
 
+
         // launch browser
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
