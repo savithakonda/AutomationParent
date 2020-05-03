@@ -254,6 +254,8 @@ Break keyword is used to terminate the loop whener a certain condition is met
 //TODO: Check private access specifier
 //TODO: String functions - Done
 //TODO: Finally keyword
+//TODO: Final Keyword
+//TODO: Typecasting
 
 Jar files:
 JAR - Java Archeive
